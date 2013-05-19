@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="top"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_out_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="5月17日 16点38分"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_in_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_event_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="学十的那位歌神又开始唱征服了"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_item_2"
+        android:layout_width="1dip"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@id/linearlayout_out_1" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_out_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/image_item_2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顶：100"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="踩：250"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</RelativeLayout>

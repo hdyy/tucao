@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E7E5E3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#333333"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/fanhui" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="156dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/queren" /> 
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_text_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="输入内容（最多50个字符）"
+        android:maxLength="50"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_welcome"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="0dp"
+        android:text="添加图片" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.77"
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>
